@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_inputs_resume</title>
+</head>
+
+<body>
+    <!-- form tag__radio buttons 이용하여 지원서 제작하기 -->
+
+    <h1>프런트엔드 개발자 지원서</h1>
+    HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다.
+    <hr>
+    <form action="../../main.html" method="get">
+        <div>
+            개인 정보
+        </div>
+        <div>
+            이름 <input type="text" name="name" value="공백 없이 입력하세요" id="">
+        </div>
+        <div>
+            연락처 <input type="text" name="contact" id="">
+        </div>
+
+
+        <div>
+            지원 분야
+        </div>
+            <div>
+                <div>
+                    <input type="radio" name="apply_field" value="web_publishing" id="web_publishing2">
+                    <label for="web_publishing2"> 웹 퍼블리싱</label>
+                </div>
+                <div>
+                    <input type="radio" name="apply_field" value="web_app" id="web_app2">
+                    <label for="web_app2"> 웹 애플리케이션 개발</label>
+                </div>
+                <div>
+                    <input type="radio" name="apply_field" value="web_env" id="web_en2">
+                    <label for="web_en2"> 개발 환경 개선</label>
+                </div>
+        </form>
+
+        <div>
+            지원동기
+        </div>
+        <div>
+            <textarea name="motivation for applying" id="" cols="50" rows="5">본사 지원 동기를 간략히 써주세요</textarea>
+        </div>
+        <div>
+            <button type="submit">접수하기</button>
+            <button type="reset">다시쓰기</button>
+        </div>
+    </form>
+
+</body>
+</html>
