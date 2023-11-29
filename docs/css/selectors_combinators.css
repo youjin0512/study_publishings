@@ -1,0 +1,19 @@
+/* 하위 자손 모두 */
+/* div p {
+  background-color: yellow;
+ } */
+
+/* 하위 자식 모두 */
+/* div < p {
+  background-color: yellow;
+ } */
+
+ /* 같은 형제자매 중 다음에 나오는 첫 번째만 선택 */
+ div + p { /* div와 p를 합한 마지막 태그의 바로 다음 태그(하나)를 찾음 */
+    background-color: blueviolet;
+  }
+
+  /* 같은 형제자매 중 다음에 나오는 모두 선택*/
+  div ~ p { /* div와 p를 합한 마지막 태그의 다음의 전체(모든) 태그를 찾음 */
+    background-color: chocolate;
+  }
