@@ -1,0 +1,24 @@
+* {
+    margin-top: 10px;
+}
+div.solid{
+    border-style: solid;
+    border-width: 1px;
+}
+
+div.red {
+    border-style: solid;
+    border-bottom-color: red;
+    border-width: 0px 0px 1px 0px ;
+}
+div.rounded {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+div.left {
+    border-style: solid;
+    border-left-color: blue;
+    background-color: skyblue;
+    border-width: 0px 0px 0px 2px;
+}

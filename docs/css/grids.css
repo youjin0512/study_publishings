@@ -3,9 +3,23 @@
     /* grid-template-columns: auto auto auto; 갯수만큼 컬럼수만큼 자동 너비 조정*/
     /* grid-template-columns: 50px auto auto; 지정 넓이만큼 표시됨(지정된 넓이는 창 길이 조절해도 고정됨)*/
     grid-template-columns: 20% 50% 30%;
+    /* grid-template-columns: 40px 50px 60px; */
     gap: 10px;
 }
+
 .grid-item-second-main {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.grid-container-justify {
+    display: grid;
+    grid-template-columns: 40px 50px 60px;
+    gap: 10px;
+    /* justify-content: center; 중앙정렬 */
+    /* justify-content: start; 왼쪽정렬(start가 기본)*/
+    /* justify-content: end; 오른쪽정렬*/
+    /* justify-content: space-around; 자동으로 간격을 조절*/
+    justify-content: space-between; /* start, center, end 영역에 붙고 사이 간격을 자동 조절 */
+
 }
